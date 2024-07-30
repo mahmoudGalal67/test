@@ -157,7 +157,7 @@ main .wrapper .right .feature {
 @media (max-width: 1100px) {
   main .wrapper .left {
     flex-direction: column-reverse;
-    text-align: center;
+    align-items: center;
     text-align: center;
   }
   main .wrapper .left .main-img {
