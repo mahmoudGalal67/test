@@ -1,0 +1,81 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border-radius: 16px;
+  border: 1px solid #cfcfcf;
+  padding: 18px;
+  position: relative;
+}
+
+.product .title {
+  color: #232323;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 111.111% */
+  letter-spacing: 0.045px;
+}
+
+.product .rating > span {
+  color: #1450a3;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px; /* 133.333% */
+  letter-spacing: 0.4px;
+}
+
+.product .main-img,
+.product img {
+  width: 100%;
+}
+
+.product .rating {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.product .rating img {
+  width: 90px;
+}
+.product .rating .rates img {
+  width: 20px;
+}
+
+.product .links {
+  padding: 0 18px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product .links img {
+  width: 25px;
+}
+
+.product .price {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+
+.product .price .new-price {
+  color: var(--main-color);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 60.606% */
+  letter-spacing: 0.083px;
+}
+.product .price .old-price {
+  color: #232323;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 90.909% */
+  letter-spacing: 0.055px;
+  text-decoration: line-through;
+}

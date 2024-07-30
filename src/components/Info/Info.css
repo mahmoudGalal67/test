@@ -1,0 +1,51 @@
+section.info {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 200% */
+  letter-spacing: 0.025px;
+}
+
+.info .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info .wrapper .left,
+.info .wrapper .right {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.info .wrapper a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.info .wrapper a.vendor {
+  border-radius: 5px;
+  background: #e30613;
+  font-size: 10px;
+  color: white;
+  padding: 5px;
+}
+
+@media (max-width: 850px) {
+  section.info {
+    padding: 45px 8px;
+    font-size: 10px;
+  }
+  .info .wrapper {
+    flex-direction: column;
+    gap: 12px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .info .wrapper .left,
+  .info .wrapper .right {
+    gap: 12px;
+  }
+}

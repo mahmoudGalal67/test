@@ -1,0 +1,51 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: rgb(126, 120, 120);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+.section {
+  padding: 45px 4%;
+}
+
+:root {
+  --main-color: #e30613;
+  --bg-color: #f1f0f5;
+}
+
+.costum-link {
+  border-radius: 40px;
+  border: 1px solid #e30613;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  color: #232323;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 24px; /* 200% */
+  letter-spacing: 0.018px;
+}

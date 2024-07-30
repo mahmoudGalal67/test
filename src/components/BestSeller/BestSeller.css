@@ -1,0 +1,63 @@
+.bestSeller {
+  font-family: Montserrat;
+}
+
+.bestSeller .header {
+  display: flex;
+  justify-content: space-between;
+  margin: 18px 0;
+}
+.bestSeller .header h2 {
+  color: #232323;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 100% */
+  letter-spacing: 0.05px;
+}
+
+.bestSeller .header .category {
+  display: flex;
+  gap: 24px;
+}
+
+.bestSeller .header .category span {
+  color: #232323;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 125% */
+  letter-spacing: 0.04px;
+  transition: all 0.3s ease-in-out;
+}
+
+.bestSeller .header .category span:hover {
+  color: var(--main-color);
+  border-bottom: 1px solid var(--main-color);
+  cursor: pointer;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #545454 !important;
+}
+
+@media (max-width: 850px) {
+  .bestSeller .header {
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+  }
+  .bestSeller .header .category {
+    gap: 12px;
+  }
+
+  .bestSeller .header .category span {
+    font-size: 14px;
+  }
+  .bestSeller .header h2 {
+    font-size: 18px;
+  }
+}
